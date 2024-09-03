@@ -175,7 +175,7 @@ const VerifyPhoneNumber = ({ handleBack, handleContinue, userLoginDetails, handl
             <div className='flex flex-row justify-between items-center mt-8'>
                 <div>
                     <button onClick={handleBackClick}>
-                        <Image src={"/assets/backArrow.png"} alt='backArrow' height={9} width={13} />
+                        <Image src={"/assets/backarrow.png"} alt='backArrow' height={9} width={13} />
                     </button>
                 </div>
                 <div>

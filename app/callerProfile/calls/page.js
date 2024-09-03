@@ -112,7 +112,7 @@ const Page = () => {
                             <div style={styles.text}>Amount</div>
                         </div>
                         <div className='w-3/12'>
-                            <div style={styles.text}>Minutes</div>
+                            <div style={styles.text}>Duration</div>
                         </div>
                         <div className='w-2/12'>
                             <div style={styles.text}>Date</div>

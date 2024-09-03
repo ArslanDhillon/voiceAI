@@ -106,7 +106,7 @@ const LoginModal = ({ closeForm, creator, assistantData }) => {
                             initial="enter"
                             animate="center"
                             exit="exit"
-                            transition={{ duration: 1 }}
+                            transition={{ duration: 0 }}
                             style={styles} className='px-3 py-5'
                         >
                             <div className='w-full'>
@@ -124,7 +124,7 @@ const LoginModal = ({ closeForm, creator, assistantData }) => {
                             initial="enter"
                             animate="center"
                             exit="exit"
-                            transition={{ duration: 1 }}
+                            transition={{ duration: 0 }}
                             style={styles}
                             className='p-6'
                         >
@@ -147,7 +147,7 @@ const LoginModal = ({ closeForm, creator, assistantData }) => {
                             initial="enter"
                             animate="center"
                             exit="exit"
-                            transition={{ duration: 1 }}
+                            transition={{ duration: 0 }}
                             style={styles}
                         >
                             <div className='w-10/12 lg:w-full '>
@@ -167,7 +167,7 @@ const LoginModal = ({ closeForm, creator, assistantData }) => {
                             initial="enter"
                             animate="center"
                             exit="exit"
-                            transition={{ duration: 1 }}
+                            transition={{ duration: 0 }}
                             style={styles}
                         >
                             <div className='w-full'>
@@ -209,7 +209,7 @@ const LoginModal = ({ closeForm, creator, assistantData }) => {
                             initial="enter"
                             animate="center"
                             exit="exit"
-                            transition={{ duration: 1 }}
+                            transition={{ duration: 0 }}
                             style={styles}
                         >
                             <div className='w-full px-6 py-4'>

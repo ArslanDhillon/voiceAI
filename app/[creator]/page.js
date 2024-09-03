@@ -316,6 +316,8 @@ const Page = () => {
     //code for apicall
     const handleTalktoBlandy = async () => {
         setLoading(true);
+        setSnackMessage(true);
+        // return
         const LocalData = localStorage.getItem('User');
         let D = null;
         if (LocalData) {
@@ -362,7 +364,6 @@ const Page = () => {
                     console.log(JSON.stringify(response.data));
                     localStorage.removeItem('callStatus');
                     console.log("Data of call removed");
-                    setSnackMessage(true);
                 })
                 .catch((error) => {
                     console.log(error);
@@ -380,7 +381,7 @@ const Page = () => {
     useEffect(() => {
         if (snackMessage === true) {
             setTimeout(() => {
-                setSnackMessage(false)
+                setSnackMessage(false);
             }, 2000);
         }
     }, [snackMessage]);

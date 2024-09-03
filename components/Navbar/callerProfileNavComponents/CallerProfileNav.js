@@ -17,10 +17,11 @@ const callerProfileNav = () => {
     const links = [
         {
             id: 1,
-            name: 'My Products',
+            name: 'My Account',
             href: '/callerProfile',
-            image: '/assets/selectedCreatorIcon.png',
-            unSelectedImg: '/assets/unselectedCreatorIcon.png'
+            // href: '/callerProfile',
+            image: '/assets/about.png',
+            unSelectedImg: '/unselectedAccountIcon.png'
         },
         {
             id: 2,
@@ -31,10 +32,10 @@ const callerProfileNav = () => {
         },
         {
             id: 3,
-            name: 'My Account',
-            href: '/callerProfile/myaccount',
-            image: '/assets/about.png',
-            unSelectedImg: '/unselectedAccountIcon.png'
+            name: 'My Products',
+            href: '/callerProfile/myProducts',
+            image: '/assets/selectedCreatorIcon.png',
+            unSelectedImg: '/assets/unselectedCreatorIcon.png'
         },
         {
             id: 4,
