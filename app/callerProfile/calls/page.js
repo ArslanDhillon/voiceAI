@@ -98,7 +98,7 @@ const Page = () => {
         <div className='h-screen w-full' style={{ backgroundColor: "#ffffff40", overflow: 'auto', scrollbarWidth: 0, }}>
             <div className='w-9/12 flex flex-col gap-2 pt-10 ps-10'>
                 <div style={{ fontSize: 20, fontWeight: 400, fontFamily: 'inter' }}>
-                    Calls Logs
+                    Calls Changes
                 </div>
 
                 <div className='w-full p-5 rounded-xl'
